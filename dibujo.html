@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dibujo en canvas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="contenedor">
+      <h1>Dibujo en canvas</h1>
+      <div class="contenedores_inputs">
+        <span>Cuantas líneas exteriores quieres?</span>
+        <input type="number" class="input_cajas" id="input_lin_exteriores" />
+        <input type="color" class="input_color" id="color_exterior" />
+      </div>
+      <div class="contenedores_inputs">
+        <span>Y líneas interiores?</span>
+        <input type="number" class="input_cajas" id="input_lin_interiores" />
+        <input type="color" class="input_color" id="color_interior" />
+      </div>
+      <div class="contenedores_inputs">
+        <input type="button" class="boton" id="botoncito" value="A darle!" />
+      </div>
+
+      <div class="contenedor_canvas">
+        <canvas width="300" height="300" id="area_dibujo"></canvas>
+      </div>
+      <script src="dibujo.js"></script>
+    </div>
+  </body>
+</html>
