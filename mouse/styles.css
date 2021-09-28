@@ -1,0 +1,18 @@
+body {
+  background: rgb(33, 33, 33);
+  background: radial-gradient(
+    circle,
+    rgba(33, 33, 33, 1) 35%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  color: #fff;
+  font-family: "Gotham";
+}
+.contenedor {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+h1 {
+  color: gold;
+}
